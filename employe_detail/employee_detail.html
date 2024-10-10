@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="employee_detail.css">
+</head>
+<body>
+    <script src="employee_detail.js"></script>
+    <h1>Employee's Detail</h1>
+    <div>
+        <button onclick="displayEmployee()">All Employee's</button>
+        <button onclick="calculateTotalSalaries()">Total Salary</button>
+        <button onclick="displayHREmployee()">HR Employee's</button>
+        <input type="number" id="employeeidinput" placeholder="enter employee id">
+        <button onclick="findEmployeeById()">find by id</button>
+    </div>
+    <div id="employeedisplay"></div>
+
+    <h2>Add New Employee</h2>
+    <input type="number" id="newEmployeeId" placeholder="ID" required>
+    <input type="text" id="newEmployeeName" placeholder="Name" required>
+    <input type="text" id="newEmployeeDepartment" placeholder="Department" required>
+    <input type="number" id="newEmployeeSalary" placeholder="Salary" required>
+    <button onclick="addNewEmployee()">Add Employee</button>
+    
+</body>
+</html>
