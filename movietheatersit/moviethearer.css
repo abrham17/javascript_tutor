@@ -1,0 +1,27 @@
+.hall{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3 , 70px);
+    gap: 60px;
+    justify-content: center;
+}
+.eachseat{
+    list-style-type: none;
+    text-align: center;
+    border:1px solid #ccc;
+    padding: 10px;
+}
+.allowed{
+    background-color: green;
+    cursor:pointer;
+}
+.booked{
+    background-color: red;
+    cursor: not-allowed;
+}
+button{
+    width:60%;
+    background-color: rgb(171, 171, 248);
+    height:50px;
+    border:#ccc;
+}

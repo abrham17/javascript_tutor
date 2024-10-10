@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = 'stylesheet' href="moviethearer.css">
+</head>
+<body>
+    <script src="moviethearer.js"></script>
+    <h2>movie theater sit allocation</h2>
+    <ul class="hall">
+        <li id = 'seat-0-0' class="eachseat allowed" onclick="funcseat(0 , 0, this)">A1</li>
+        <li id = 'seat-0-1' class="eachseat allowed" onclick="funcseat(0 , 1, this)">A2</li>
+        <li id = 'seat-0-2' class="eachseat allowed" onclick="funcseat(0 , 2, this)">A3</li>
+        <li id = 'seat-1-0' class="eachseat allowed" onclick="funcseat(1 , 0, this)">B1</li>
+        <li id = 'seat-1-1' class="eachseat allowed" onclick="funcseat(1 , 1, this)">B2</li>
+        <li id = 'seat-1-2' class="eachseat allowed" onclick="funcseat(1 , 2, this)">B3</li>
+        <li id = 'seat-2-0' class="eachseat allowed" onclick="funcseat(2 , 0, this)">C1</li>
+        <li id = 'seat-2-1' class="eachseat allowed" onclick="funcseat(2 , 1, this)">C2</li>
+        <li id = 'seat-2-2' class="eachseat allowed" onclick="funcseat(2 , 2, this)">C3</li>
+    </ul>
+    <div style="display: flex; justify-content: center;">
+        <button onclick="randomSeat()">Random seat</button>
+    </div>
+</body>
+</html>
