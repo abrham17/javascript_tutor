@@ -1,4 +1,4 @@
-const api_Key = "aa681b1b6a52aaa30b303e1ff1ef327c";
+const api_Key = your_api_key;
 
 const button = document.getElementById('search-image');
 
