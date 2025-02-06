@@ -1,0 +1,50 @@
+.account {
+
+    top: 100%;
+    right: 0;
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1050;
+    display: flex;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+}
+
+.account a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 5px 10px;
+    position: relative;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.account a::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+
+.account a:hover,
+.account .dropdown-item:hover {
+    color: #4b28aa;
+    animation: slideRight 0.3s ease-in-out;
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(0);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(20px);
+        opacity: 1;
+    }
+}

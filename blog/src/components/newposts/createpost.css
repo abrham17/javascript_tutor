@@ -1,0 +1,11 @@
+/* Light theme placeholder */
+.bg-light ::placeholder {
+  color: #020b14 !important; /* Bootstrap's default secondary color */
+  opacity: 0.7;
+}
+
+/* Dark theme placeholder */
+.bg-dark ::placeholder {
+  color: #d8dcdf !important; /* Lighter gray for dark theme */
+  opacity: 0.7;
+}
